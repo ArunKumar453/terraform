@@ -4,6 +4,7 @@ variable "size" {
 }
 
 output "privateip" {
+
   
   value = aws_instance.test.private_ip
   
